@@ -14,7 +14,8 @@ namespace TaskMgr.Shared
         public string  Name { get; set; }
         
         public string  Tel { get; set; }
-        public string Zone { get; set; }
+        public string Zone { get; set; }  // โซนที่รับงาน
         public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
     }
 }
